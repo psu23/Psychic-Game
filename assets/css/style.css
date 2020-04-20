@@ -1,0 +1,15 @@
+.jumbotron {
+    margin: 30px;
+}
+
+h1, p {
+    text-align: center;
+}
+
+#disp-wins {
+    color: green;
+}
+
+#disp-losses {
+    color: red;
+}

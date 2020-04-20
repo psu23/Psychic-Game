@@ -53,7 +53,7 @@ document.onkeyup = function(event) {
     //..reset to initial conditions and define a new computer letter.
     if (userGuess === computerLetter) {
         wins++;
-        alert("You won! You are a certified psychic. But, let's try again to make sure.")
+        alert("You won! " + userGuess + " was the letter. You are a certified psychic. But, let's try again to make sure.")
         reset();
     }
 
