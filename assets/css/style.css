@@ -1,5 +1,13 @@
+body {
+    background: url("../images/crystalball.png");/*image from https://flyclipart.com/*/
+}
+
 .jumbotron {
-    margin: 30px;
+    max-width: 740px;
+    margin: 0 auto;
+    margin-top: 15px;
+    border: solid 20px #c6ade6;
+    background: #f7f3fc;
 }
 
 h1, p {
