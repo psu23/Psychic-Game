@@ -10,8 +10,16 @@ body {
     background: #f7f3fc;
 }
 
+.alert {
+    max-width: 740px;
+}
+
 h1, p {
     text-align: center;
+}
+
+#instructions {
+    color: #c6ade6;
 }
 
 #disp-wins {

@@ -3,25 +3,29 @@
 
 <head>
 <meta charset="UTF-8">
-<title>The Psychic Game</title>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>The Psychic Game</title>
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-<!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
 </head>        
 
 <body>
 
+
     <div class="jumbotron">
         <h1 class="display-4">The Psychic Game</h1>
-        <p>Concentrate deeply, and pick a lowercase letter.</p>
+        <p id="instructions">Concentrate deeply, and pick a lowercase letter.</p>
         <p class="lead" id="disp-wins">Wins: </p>
         <p class="lead" id="disp-losses">Losses: </p>
         <p class="lead" id="disp-guess">Guesses left: </p>
         <p class="lead" id="disp-list">Your guesses so far: </p>
     </div>
+
     
     <!--Link separately to javascript sheet-->       
     <script type="text/javascript" src="assets/javascript/game.js"></script>
